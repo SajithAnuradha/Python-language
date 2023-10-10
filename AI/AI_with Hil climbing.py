@@ -93,7 +93,7 @@ city_list=[i for i in range (1,count)];
     
 count_city=len(city_list);
 latest_cost=float('inf');
-for z in range (0,10):
+for z in range (0,count*count):
         random.shuffle(city_list);
         
 
